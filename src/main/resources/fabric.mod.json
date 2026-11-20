@@ -7,6 +7,11 @@
   "authors": [
     "KiruhaS112"
   ],
+  "contact": {
+    "homepage": "https://github.com/kirillsoshenkotwo-create/DolgMod",
+    "sources": "https://github.com/kirillsoshenkotwo-create/DolgMod",
+    "issues": "https://github.com/kirillsoshenkotwo-create/DolgMod/issues"
+  },
   "license": "MIT",
   "icon": "assets/dolgmod/icon.png",
   "environment": "*",

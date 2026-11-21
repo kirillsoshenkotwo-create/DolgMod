@@ -1,6 +1,6 @@
 # DolgMod
 
-A lightweight Minecraft Fabric mod (MC 26.3) that adds a real-time item loan and debt system for **Singleplayer** and **Dedicated Servers**.
+A lightweight Minecraft Fabric mod (MC 1.21.11) that adds a real-time item loan and debt system for **Singleplayer** and **Dedicated Servers**.
 
 ## Features
 - **Real-Time Tracking:** Loans tick in real time and persist across server restarts.

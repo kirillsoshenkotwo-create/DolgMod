@@ -74,7 +74,7 @@ Component title = Component.literal(DolgConfig.tr("ДОЛГ: ", "DEBT: "))
 .append(item.getDefaultInstance().getHoverName())
 .append(Component.literal(DolgConfig.tr(" x" + debt.count + " — Осталось: ", " x" + debt.count + " — Time left: ") + DolgCommands.formatTime(remaining)));
 ServerBossEvent bar = bossBars.computeIfAbsent(uuid, id ->
-new ServerBossEvent(UUID.randomUUID(), title, BossEvent.BossBarColor.YELLOW, BossEvent.BossBarOverlay.PROGRESS)
+    new ServerBossEvent(title, BossEvent.BossBarColor.YELLOW, BossEvent.BossBarOverlay.PROGRESS)
 );
 bar.setName(title);
 float progress = Math.max(0.0f, Math.min(1.0f, (float) remaining / (float) debt.totalDurationMillis));

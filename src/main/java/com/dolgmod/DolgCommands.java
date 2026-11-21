@@ -48,7 +48,7 @@ p.sendSystemMessage(Component.literal(DolgConfig.tr(
 ) + formatTime(cdRem)).withStyle(ChatFormatting.RED));
 return 0;
 }
-ItemStack template = ItemArgument.getItem(c, "item").createItemStack(1);
+ItemStack template = ItemArgument.getItem(c, "item").createItemStack(1, false);
 if (isForbiddenItem(template)) {
 p.sendSystemMessage(Component.literal(DolgConfig.tr(
 "Этот предмет запрещено брать в долг!",

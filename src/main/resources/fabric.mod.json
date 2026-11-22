@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "dolgmod",
+  "version": "${version}",
+  "name": "DolgMod",
+  "description": "Item loan & debt system for Singleplayer and Servers: borrow items for real time with a live BossBar countdown, automatic inventory deduction, or punishment.",
+  "authors": [
+    "KiruhaS112"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kirillsoshenkotwo-create/DolgMod",
+    "sources": "https://github.com/kirillsoshenkotwo-create/DolgMod",
+    "issues": "https://github.com/kirillsoshenkotwo-create/DolgMod/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/dolgmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dolgmod.DolgMod"
+    ]
+  },
+  "depends": {
+  "fabricloader": ">=0.14.25",
+  "fabric": "*",
+  "minecraft": "1.16.5",
+  "java": ">=8"
+ }
+}

@@ -1,0 +1,26 @@
+name: DolgMod
+version: 1.0.0
+main: com.dolgmod.DolgPlugin
+author: KiruhaS112
+description: Item loan and debt system with BossBar countdown for Spigot 1.12.2
+
+commands:
+  dolg:
+    description: Взять предмет в долг
+    usage: /dolg <предмет> <кол-во> <время>
+  dolg_pay:
+    description: Погасить активный долг
+  dolg_info:
+    description: Информация о текущем долге
+  dolg_hud:
+    description: Включить/скрыть полоску таймера долга
+  dolg_clear:
+    description: Аннулировать долг и кулдаун игрока
+    permission: dolgmod.admin
+  dolg_reload:
+    description: Перезагрузить конфиг плагина
+    permission: dolgmod.admin
+
+permissions:
+  dolgmod.admin:
+    default: op
